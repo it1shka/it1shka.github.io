@@ -17,6 +17,13 @@
   text-decoration: underline;
 }
 
+button {
+  border: 0;
+  padding: 0.5em 0.75em;
+  background-color: var(--primary-color);
+  color: white;
+}
+
 body {
   margin: 0;
   font-family: sans-serif;
@@ -55,7 +62,7 @@ body {
 
 .logo {
   border-radius: 0.5em;
-  width: 100px;
+  width: 75px;
   height: auto;
 }
 
