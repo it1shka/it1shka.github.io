@@ -2,7 +2,7 @@ window.onload = function() {
 
   document.querySelectorAll('.paragraph').forEach(par => {
     par.addEventListener('click', () => {
-      const inner_content = par.querySelectorAll('p, img')
+      const inner_content = par.querySelectorAll('p, img, ul')
       for(const p of inner_content) {
         p.classList.toggle('hidden')
       }
